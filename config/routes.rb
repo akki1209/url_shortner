@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
+  default_url_options :host => "localhost:3000"
+
 
   # You can have the root of your site routed with "root"
   root 'links#index'
+  get '/s/:slug', to: 'links#redirect_to_original_url', as: :short
 
-  resources :links
+  resources :links, only: [:index, :new, :create, :destroy]
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_02_174302) do
+ActiveRecord::Schema.define(version: 2021_11_10_053621) do
 
   create_table "links", force: :cascade do |t|
-    t.string "url"
+    t.string "original_url"
     t.string "url_slug"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "sluged_url"
     t.index ["url_slug"], name: "index_links_on_url_slug"
   end
 
