@@ -28,10 +28,6 @@ Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
 
-- ![url shortner index](https://github.com/akki1209/url_shortner/blob/master/public/UrlShortner-index.png)
-- ![url shortner show](https://github.com/akki1209/url_shortner/blob/master/public/UrlShortner-show.png)
-
-
 - https://github.com/akki1209/url_shortner/blob/master/public/UrlShortner-index.png
 - https://github.com/akki1209/url_shortner/blob/master/public/UrlShortner-show.png
 
