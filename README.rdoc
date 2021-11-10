@@ -32,3 +32,6 @@ Please feel free to use a different markup language if you do not plan to run
 - ![url shortner show](https://github.com/akki1209/url_shortner/blob/master/public/UrlShortner-show.png)
 
 
+- https://github.com/akki1209/url_shortner/blob/master/public/UrlShortner-index.png
+- https://github.com/akki1209/url_shortner/blob/master/public/UrlShortner-show.png
+
